@@ -8,23 +8,33 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <link rel="stylesheet" href="dist/audition.css">
-
+  
   <meta name="theme-color" content="#fafafa">
 </head>
 
 <body>
 
   <!-- Add your site or application content here -->
-  <div class="container">
+  <div class="container cta-tile">
 
     <div class="row">
       <div class="col">
         <section>
-          <div>
-            <p>Great! Your registry is published and ready to be shared.</p>
-            <a href="/">Share</a>
-            <a href="/">Preview</a>
-            <a href="/">Edit</a>
+          <div class="row align-items-center px-4 py-3 border mt-5"> <!-- adding border for clarity -->
+            <p class="d-none d-lg-block desktop-alert-text col-lg-6 col-md-12 mb-0 row align-items-center text-center px-0">
+              <span class="warning-icon text-white font-weight-bold mr-2">!</span>
+              <span class="font-weight-bold">You're almost there!</span>
+              <a class="mx-1" href="#"><u> Add payment settings </u></a>
+               and you're ready to share.
+            </p>
+            <p class="d-lg-none text-center col-md-12">
+              <span class="font-weight-bold">Great!</span> Your registry is published and ready to be shared.
+            </p>
+            <div class="cta-buttons container col-lg-6 col-md-12 px-0 d-flex flex-md-row justify-content-between">               
+              <a class="py-3 pt-2 btn btn-primary" href="/">Add Payment</a>
+              <a class="py-3 pt-2 btn btn-outline-primary" href="/">Preview</a>
+              <a class="py-3 pt-2 btn btn-outline-primary" href="/">Edit</a>
+            </div>
           </div>
         </section>
       </div>
